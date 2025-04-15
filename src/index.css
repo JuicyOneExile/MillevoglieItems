@@ -1,0 +1,68 @@
+@import "tailwindcss";
+/* Custom styles below */
+body {
+  background-color: #1f1f1f;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-box input::placeholder {
+  color: #ccc;
+}
+
+.category-section {
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.category-section h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subcategory-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #aaa;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #444;
+  padding: 6px 0;
+}
+
+.item-code {
+  width: 30%;
+}
+
+.item-name {
+  width: 40%;
+}
+
+.item-price {
+  width: 30%;
+  text-align: right;
+}
